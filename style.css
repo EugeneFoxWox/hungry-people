@@ -55,24 +55,50 @@ li{
 .welcome{
     margin-top: 200px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    flex-direction: row;
+    align-items:center;
+    
     
 }
 
-.welcome p{
+.welcome-info{
+    display: inline;
+    transform: rotate(-90deg);
+    color: white;
+}
+.welcome-info p{
+    height: 180px;
+    width: 220px;
+    font-size: 10px;
+}
+
+.welcome-title{
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 160px;
+}
+
+.welcome-title p{
     font-size: 25px;
     color: white;
 }
 
-.welcome h1{
+.welcome-title h1{
     font-family: 'Kalam', cursive;
     font-size: 100px;
     color: white;
-    margin: 20px 0px
+    margin: 10px 0px
 }
 
+.line-title{
+    height: 5px;
+    width: 60px;
+    background-color: #E8C300;
+    margin-bottom: 20px;
+    border-radius: 30%;
+}
 .landing-buttons{
     display: flex;
     flex-direction: row;
@@ -94,6 +120,48 @@ li{
     border: 1px solid rgba(255, 255, 255, 0.27);
     color: white;
 }
+
+.socity{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.socity div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.248);
+
+} 
+.next{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.next-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.748);
+}
+
+.next-button{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}  
 
 .two{
     height: 200px;
