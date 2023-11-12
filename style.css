@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Open+Sans:wght@400;700&display=swap');
 
 *{
     margin: 0;
@@ -6,11 +6,17 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;  
 }
 
 li{
    list-style: none; 
+   font-weight: 700;
+}
+
+button{
+    font-weight: 700;
+    border: none;
 }
 
 
@@ -23,7 +29,7 @@ li{
 .container{
     width: 100%;
     max-width: 1350px;
-    margin: 0px 80px;
+    margin: 0px auto;
 }
 
 .header{
@@ -31,6 +37,7 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 .menu ul{
@@ -44,7 +51,7 @@ li{
     
 }
 
-.menu ul li{
+.menu li{
     color: white;
 } 
 
@@ -162,30 +169,105 @@ li{
     border-radius: 50%;
 }  
 
-.two{
-    height: 200px;
-}
+.content{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
 
-.about-us{
-    margin-top: 100px;
+.post-box{  
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.about-us-info{
+.post-info{
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
-.about-us-title{
+.text-box p{
+
+    text-align: center;
+}   
+
+.post-title{
     font-family: 'Kalam', cursive;
     font-size: 30px;
 }
 
-.text{
+.section-citate{
+    font-weight: 700;
+
+}
+
+.section-text{
     font-style: normal;
+    margin-top: 10px;
+
+
+}
+
+.section-team{
+    height: 676px;
+    background-image: url("/src/img/specialty\'s-bg.png");
+    background-size: cover;
+}
+
+
+
+.post-word{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    
+
+}
+
+.post-title-w{
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    color: white;
+}
+.text-box-w{
+    text-align: center;
+    color: white;
+}
+
+.book-table{
+    display: grid;
+    grid-template-columns: repeat(2, 278px);
+    grid-template-rows: repeat(4, 60px);
+    gap: 10px;
+    
+
+}
+.button-book-now{
+    font-family: 'Open Sans', sans-serif;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #E8C300;
+    color: white;
+    grid-column: span 2 ;
+}
+
+.book-table input, .book-table select{
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+
+
+}
+
+.book-table input, .book-table select:focus{
+    outline: none;
 }
