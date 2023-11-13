@@ -170,7 +170,7 @@ button{
 }  
 
 .content{
-    padding-top: 50px;
+    padding: 50px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -270,4 +270,58 @@ button{
 
 .book-table input, .book-table select:focus{
     outline: none;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.section-choko{
+    background-image: url("/src/img/specialty\'s-bg3.png");
+    height: 675px;
+    background-size: cover;
+}
+
+.grid-menu-button{
+    display: grid;
+    grid-template-columns: repeat(6,120px);
+    grid-template-rows: 50px;
+    column-gap: 1px;
+    background-color: #33333333;;
+}
+
+.grid-menu-button button{
+    background-color: white;
+}
+
+.grid-menu{
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 365px);
+    grid-template-rows: repeat(7, 65px);
+    gap: 17px 10px;
+}
+
+.item-menu{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 65px;
+    font-style: 'Open Sans', sans-serif;
+
+}
+
+.name-item-menu{
+    font-size: 700;
+    font-family: 'Kalam';
+}
+
+.price{
+    font-size: 700;
+    font-family: 'Kalam';
+    font-style: 'Open Sans', sans-serif;
 }
