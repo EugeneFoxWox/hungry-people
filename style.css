@@ -288,6 +288,7 @@ button{
 }
 
 .grid-menu-button{
+    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(6,120px);
     grid-template-rows: 50px;
