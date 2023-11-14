@@ -19,6 +19,18 @@ button{
     border: none;
 }
 
+input, select{
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+
+
+}
+
+input, select:focus{
+    outline: none;
+}
 
 .header-section{
     height: 800px;
@@ -132,6 +144,7 @@ button{
     flex-direction: column;
     gap: 30px;
 }
+
 .socity a{
     display: flex;
     align-items: center;
@@ -143,12 +156,14 @@ button{
     border: 1px solid rgba(255, 255, 255, 0.248);
 
 } 
+
 .next{
     margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .next-border{
     display: flex;
     align-items: center;
@@ -236,6 +251,7 @@ button{
     font-size: 30px;
     color: white;
 }
+
 .text-box-w{
     text-align: center;
     color: white;
@@ -259,18 +275,6 @@ button{
     grid-column: span 2 ;
 }
 
-.book-table input, .book-table select{
-    background-color: #E5E5E5;
-    border: none;
-    border-radius: 5px;
-    padding: 20px;
-
-
-}
-
-.book-table input, .book-table select:focus{
-    outline: none;
-}
 
 .description{
     display: flex;
@@ -326,3 +330,65 @@ button{
     font-family: 'Kalam';
     font-style: 'Open Sans', sans-serif;
 }
+
+.section-photo{
+    height: 390px;
+    background-color:#E8C300;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.section-photo img{
+    height: 370px;
+    width: 370px;
+}
+
+.grid-contact{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+    grid-template-rows: 60px 120px 60px;
+    gap: 10px;
+}
+
+.grid-contact input{
+    border-radius: 5px;
+}
+
+.message{
+    grid-column: span 3;
+}
+
+.grid-send{
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+    font-size: 14px;
+    font-family: cursive;
+
+
+}
+.grid-send button{
+    background-color: #E8C300;
+    color: white;
+    border-radius: 5px;
+}
+
+.grid-send img{
+    width: 20px;
+    color: #E8C300;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.information div{
+    margin-right: auto;
+}
+
+
