@@ -2,6 +2,7 @@
 
 *{
     margin: 0;
+    width: auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -34,6 +35,7 @@ input, select:focus{
 
 .header-section{
     height: 800px;
+    width: 100%;
     background-image: url("/src/img/header-bg.png");
     background-size: cover;
 }
