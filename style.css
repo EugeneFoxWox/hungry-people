@@ -36,7 +36,7 @@ input, select:focus{
 .header-section{
     height: 800px;
     width: 100%;
-    background-image: url("/src/img/header-bg.png");
+    background-image: url("src/img/header-bg.png");
     background-size: cover;
 }
 
@@ -232,7 +232,7 @@ input, select:focus{
 
 .section-team{
     height: 676px;
-    background-image: url("/src/img/specialty\'s-bg.png");
+    background-image: url("src/img/specialty\'s-bg.png");
     background-size: cover;
 }
 
@@ -288,7 +288,7 @@ input, select:focus{
 }
 
 .section-choko{
-    background-image: url("/src/img/specialty\'s-bg3.png");
+    background-image: url("src/img/specialty\'s-bg3.png");
     height: 675px;
     background-size: cover;
 }
